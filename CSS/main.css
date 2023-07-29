@@ -1,0 +1,421 @@
+/* CSS for the header section */
+header {
+  display: flexbox;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #cc3d08; 
+  color: #f30606; 
+  padding: 20px;
+  width: 100%; /* Set the header width to 100% of the viewport */
+  margin: 0;
+}
+
+h1 {
+  margin: 0; /* Remove default margin */
+  flex: 50; /* Make the "Cars World" text take the available space in the center */
+  text-align: center; /* Center the "Cars World" text */
+}
+
+a.logo {
+  text-decoration: none;
+  color: #ef1010;
+  background-color: #eff1f7; 
+  padding: 7px; /* Adjust the padding as needed */
+  margin-left: auto; /* Move the logo to the right side */
+}
+
+/* Adjust the size of the logo */
+a.logo img {
+  width: 200px; /* Adjust the width of the logo */
+  height: 200px; /* Adjust the height of the logo */
+}
+
+/* CSS for the entire website */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #eb0808; 
+}
+
+/* Rest of your CSS styles here */
+
+/* CSS for the footer section */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f7f4f4; 
+  color: #090909; 
+  font-size: 16px;
+  clear: both; /* Add this style to clear the float */
+}
+
+/* CSS for the header section */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b3f1a8; 
+  color: #0a0a0a; 
+  padding: 22px;
+  width: 100%; /* Set the header width to 100% of the viewport */
+  margin: 0;
+}
+
+h1 {
+  margin: 0; /* Remove default margin */
+  flex: 1; /* Make the "Cars World" text take the available space in the center */
+  text-align: center; /* Center the "Cars World" text */
+}
+
+a.logo {
+  text-decoration: none;
+  color: #fff;
+  background-color: #d6dee4; 
+  padding: 10px; /* Adjust the padding as needed */
+  margin-left: auto; /* Move the logo to the right side */
+} 
+
+/* Adjust the size of the logo */
+a.logo img {
+  width: 200px; /* Adjust the width of the logo */
+  height: 200px; /* Adjust the height of the logo */
+}
+
+/* CSS for the entire website */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f6f6f6;
+}
+/* CSS for the contact page */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  color: #080808; /* Set a light blue color for the headings */
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+form {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+fieldset {
+  margin-bottom: 20px;
+  border: none;
+}
+
+legend {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #2196e4; 
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #2980b9; 
+}
+
+/* CSS for the navigation menu */
+nav {
+  background-color: #161101; 
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #d4cfcf; 
+  text-decoration: none;
+  margin: 5px;
+  padding: 5px 10px;
+}
+
+nav a:hover {
+  background-color: #555; /* Darker gray background color on hover */
+  color: #fff; /* Set white text color on hover */
+}
+/* CSS for the header section */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #939393; 
+  color: #121212; 
+  padding: 20px;
+  width: 100%; /* Set the header width to 100% of the viewport */
+  margin: 0;
+}
+
+h1 {
+  margin: 0; /* Remove default margin */
+  flex: 1; /* Make the "Cars World" text take the available space in the center */
+  text-align: center; /* Center the "Cars World" text */
+}
+
+a.logo {
+  text-decoration: none;
+  color: #fff;
+  background-color: #c7cdd0; 
+  padding: 10px; /* Adjust the padding as needed */
+  margin-left: auto; /* Move the logo to the right side */
+}
+
+/* Adjust the size of the logo */
+a.logo img {
+  width: 150px; /* Adjust the width of the logo */
+  height: 150px; /* Adjust the height of the logo */
+}
+
+/* CSS for the entire website */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f6f6f6; /* Set a light gray background color for the body */
+}
+
+/* CSS for the contact page */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  color: #030303; /* Set a light blue color for the headings */
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+form {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+fieldset {
+  margin-bottom: 20px;
+  border: none;
+}
+
+legend {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #3498db; /* Set a light blue color for the submit button */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #2980b9; /* Darker blue color on hover */
+}
+
+/* CSS for the navigation menu */
+nav {
+  background-color: #aeada9; 
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #555; /* Set a darker gray text color for navigation links */
+  text-decoration: none;
+  margin: 5px;
+  padding: 5px 10px;
+}
+
+nav a:hover {
+  background-color: #555; /* Darker gray background color on hover */
+  color: #fff; /* Set white text color on hover */
+}
+
+/* CSS for the aside section */
+aside {
+  float: left;
+  width: 33.33%;
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #a6f380; 
+  text-align: center;
+}
+
+aside h2 {
+  margin: 0;
+}
+
+aside ul {
+  list-style: none;
+  line-height: 1.5;
+  padding: 0;
+}
+
+aside li {
+  margin: 10px 0;
+}
+
+/* CSS for the main content section */
+main {
+  float: left;
+  width: 66.67%;
+  padding: 10px;
+  background-color: #fff; /* Set a white background color for the main content */
+}
+
+main h2 {
+  margin-top: 0;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* CSS for the footer section */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #efd06c; 
+  color: #0e0e0e; 
+  font-size: 16px;
+  clear: both; /* Add this style to clear the float */
+}
+
+footer p {
+  margin: 0;
+}
+
+/* CSS for the aside section */
+aside {
+  float: left;
+  width: 33.33%;
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #434244; 
+  text-align: center;
+}
+
+aside h2 {
+  margin: 0;
+}
+
+aside ul {
+  list-style: none;
+  line-height: 1.5;
+  padding: 0;
+}
+
+aside li {
+  margin: 10px 0;
+}
+
+/* CSS for the main content section */
+main {
+  float: left;
+  width: 66.67%;
+  padding: 10px;
+  background-color: #b8adad; /* Set grey background color for the main content */ 
+}
+
+main h2 {
+  margin-top: 0;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* CSS for the footer section */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #aef78a; /* Set a light green background color for the footer */
+  color: #0e0e0e; /* Set a Black text color for the footer */
+  font-size: 16px;
+  clear: both; /* Add this style to clear the float */
+}
+
+footer p {
+  margin: 0;
+}
